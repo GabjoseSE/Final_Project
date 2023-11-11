@@ -17,12 +17,12 @@ class BudgetTrackerApp:
 
         # UI Widgets
         self.ui_widgets = BudgetWidgets(master, self)
-        self.ui_widgets.create_budget_widgets()
-        self.ui_widgets.create_product_entry_widgets()
-        self.ui_widgets.create_product_list_widgets()
-        self.ui_widgets.create_list_operation_widgets()
-        self.ui_widgets.create_remaining_budget_widgets()
-        self.ui_widgets.create_save_to_excel_widget()
+        self.ui_widgets.budget_widgets()
+        self.ui_widgets.product_entry_widgets()
+        self.ui_widgets.product_list_widgets()
+        self.ui_widgets.list_operation_widgets()
+        self.ui_widgets.remaining_budget_widgets()
+        self.ui_widgets.save_to_excel_widget()
 
         # Functions
         self.budget_functions = BudgetFunctions(self)  # Instantiate BudgetFunctions

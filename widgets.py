@@ -26,8 +26,8 @@ class BudgetWidgets:
         self.app.product_tree.grid(row=3, column=0, columnspan=3, sticky='nsew')
 
     def list_operation_widgets(self):
-        tk.Button(self.master, text="Update List ", bg="#c5af00", command=self.app.update_list).grid(row=4, column=1, columnspan=3)
-        tk.Button(self.master, text="Delete Item", bg="#c9382c", command=self.app.delete_item).grid(row=4, column=2, columnspan=3)
+        tk.Button(self.master, text="Update List ",fg="white", bg="#c5af00", command=self.app.update_list).grid(row=4, column=1, columnspan=3)
+        tk.Button(self.master, text="Delete Item",fg="white", bg="#c9382c", command=self.app.delete_item).grid(row=4, column=2, columnspan=3)
 
     def remaining_budget_widgets(self):
         tk.Label(self.master, text="Remaining Budget:", fg='blue').grid(row=5, column=0, sticky=tk.W)

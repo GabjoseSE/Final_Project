@@ -6,8 +6,8 @@ from functions import BudgetFunctions
 class BudgetTrackerApp:
     def __init__(self, master):
         self.master = master
-        self.master.title("Budget Tracker")
-        self.master.geometry("500x400")
+        self.master.title("iBudget")
+        self.master.geometry("400x400")
 
         # Variables
         self.budget = tk.DoubleVar()

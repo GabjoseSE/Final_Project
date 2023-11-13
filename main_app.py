@@ -1,4 +1,3 @@
-# main_app.py
 import tkinter as tk
 from widgets import BudgetWidgets
 from functions import BudgetFunctions
@@ -25,8 +24,7 @@ class BudgetTrackerApp:
         self.ui_widgets.save_to_excel_widget()
 
         # Functions
-        self.budget_functions = BudgetFunctions(self)  # Instantiate BudgetFunctions
-
+        self.budget_functions = BudgetFunctions(self)  
     def set_budget(self):
         self.budget_functions.set_budget()
 
